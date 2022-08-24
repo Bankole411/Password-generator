@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+button{
+    cursor: pointer;
+}
+
+#main-h1{
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+#main-p{
+    font-family: Inter;
+    color: #4ADF86;
+    margin-top: 0;
+}
+
+#main-subtext{
+    margin-left: 10%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #D5D4D8;
+    margin-top: -35px;
+}
+
+#container{
+    margin-left: 10%;
+    width: 90%;
+}
+
+#password-length{
+    height: 42px;
+    width: 45%;
+    border-radius: 6px;
+    margin-bottom: 5%;
+    border: 0;
+}
+
+#password-btn{
+    height: 42px;
+    width: 191px;
+    border-radius: 6px;
+    padding: 9px, 17px, 9px, 15px;
+    border: 0;
+    background-color: #10B981;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 7%
+}
+
+#underline{
+    width: 90%;
+    height: 1px;
+    background-color: #ffffff;
+    margin-bottom: 7%;
+    background-color: #2F3E53;
+} 
+
+#output-passwords{
+    width: 90%;
+}
+
+#output-passwords button{
+    min-height: 35px;
+    width: 45%;
+    border-radius: 6px;
+    border: 0;  
+    background-color: #273549;
+ 
+}
+
+#password2{
+    float: right;
+}
+
+#password1, #password2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #55F991;
+    word-wrap: break-word;
+}
+
+@media(max-width:400px){
+   #password1, #password2{
+        font-size: 12px;
+    }
+}
